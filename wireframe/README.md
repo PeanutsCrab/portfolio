@@ -1,5 +1,5 @@
 ### 画面遷移図
-Figma：https://www.figma.com/board/1ox5mQQXt2SmHsqAlr7dzq/wireframe?node-id=0-1&t=OXihdodAgXMclz9D-1
+Figma：https://www.figma.com/board/1ox5mQQXt2SmHsqAlr7dzq/wireframe?node-id=0-1&t=iHpugABpwOtTG6V1-1
 
 ### READMEに記載した機能
 - [x] 会員登録
