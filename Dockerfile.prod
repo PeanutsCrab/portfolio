@@ -28,7 +28,8 @@ RUN yarn install --production
 
 COPY . /myapp
 
-RUN bundle exec rails assets:precompile
+# RUN bundle exec rails assets:precompile
+ENTRYPOINT ["/myapp/bin/render-build"]
 
 EXPOSE 3000
 
