@@ -1,0 +1,30 @@
+header {
+    padding: 25px 0px;
+    background-color: rgba(238, 130, 125, 1);
+  }
+.navbar {
+    display: flex;
+    justify-content: space-between; /* 左右の要素を分ける */
+    align-items: center;
+    padding: 0; /* パディングをリセット */
+    margin: 0;
+    color: rgba(51, 51, 51, 1);
+  }
+  
+  .navbar-brand {
+    font-size: 32px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: rgba(51, 51, 51, 1);; /* 文字の色を設定 */
+  }
+  
+  .navbar-uer {
+    display: flex; /* 横並びにするためにflexを使用 */
+    align-items: center;
+  }
+  
+  .navbar-item {
+    margin: 0px 40px 0px 15px; /* アイテム間のスペース */
+    text-decoration: none; /* 下線を消す */
+    color: rgba(51, 51, 51, 1);
+  }
