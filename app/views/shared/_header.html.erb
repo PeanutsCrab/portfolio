@@ -1,10 +1,19 @@
 <header>
   <nav class='navbar'>
-    <%= link_to '今日何食べる？', '#', class: 'navbar-brand' %>
+    <%= link_to '今日何食べる？', root_path, class: 'navbar-brand' %>
     <div class='navbar-user'>
       <div class='dropdown-divider'></div>
-      <%= link_to '会員登録', '#', class: 'navbar-item' %>
-      <%= link_to 'ログイン', '#', class: 'navbar-item' %>
+      <div class='navbar-item' id='hamburger-menu'>
+        <p>マイページ</p>
+        <div class='menu-content' id='menu-content'>
+          <%= link_to '会員情報変更', '#', class: 'menu-item' %>
+          <%= link_to '献立投稿', '#', class: 'menu-item' %>
+          <%= link_to '投稿一覧', '#', class: 'menu-item' %>
+          <%= link_to 'お気に入り一覧', '#', class: 'menu-item' %>
+          <%= link_to 'LINE通知', '#', class: 'menu-item' %>
+          <%= link_to 'ログアウト', logout_path, class: 'menu-item', data: { turbo_method: :delete } %>
+        </div>
+      </div>
     </div>
   </nav>
 </header>
